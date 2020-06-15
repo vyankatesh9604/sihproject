@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "email":"amaan",
+        "password":"12345"
+    },
+    {
+        "id":2,
+        "email":"rokade",
+        "password":"12345"
+    },
+    {
+        "id":3,
+        "email":"wacky",
+        "password":"12345"
+    },
+    {
+        "id":4,
+        "email":"vyankatesh",
+        "password":"12345"
+    },
+    {
+        "id":5,
+        "email":"suchiii",
+        "password":"12345"
+    },
+    {
+        "id":6,
+        "email":"bhutada",
+        "password":"12345"
+    }
+]

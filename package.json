@@ -1,0 +1,53 @@
+{
+  "name": "graph",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@progress/kendo-drawing": "^1.6.0",
+    "@progress/kendo-react-buttons": "^3.11.0",
+    "@progress/kendo-react-layout": "^3.11.0",
+    "@progress/kendo-react-pdf": "^3.11.0",
+    "@progress/kendo-theme-material": "^3.11.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@trendmicro/react-sidenav": "^0.5.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "bootstrap-4-grid": "^3.4.0",
+    "chart.js": "^2.9.3",
+    "dom": "0.0.3",
+    "jquery": "^3.4.1",
+    "material-ui": "^0.20.2",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.0",
+    "react-burger-menu": "^2.6.13",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-tap-event-plugin": "^3.0.3",
+    "reactstrap": "^8.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
