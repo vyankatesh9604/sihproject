@@ -1,33 +1,33 @@
-import React, { Component } from 'react'  
+import React from 'react'  
 import './login.css'
-import {Link,useHistory} from 'react-router-dom'
-import data from './authData.json'
+import {Link,/*useHistory*/} from 'react-router-dom'
+//import data from './authData.json'
 // userData = require('./authData.json')
 
-const myHistory= useHistory()
+//const myHistory= useHistory()
 
 const login = () => {
 	
 	
-     const userAuth=()=>{
-		let isValid = false
-		let Eemail = document.getElementById("exampleInputEmail1").value;
-		let Epass = document.getElementById("exampleInputPassword1").value;
-		console.log(Eemail);
-	    data.forEach((item)=>{
-		if(Eemail===item.email && Epass===item.password){
-			isValid = true
-		}
-		})
-		if(isValid === true){
-			alert('Login Successful')
-			myHistory.push('/chart')
+//      const userAuth=()=>{
+// 		let isValid = false
+// 		let Eemail = document.getElementById("exampleInputEmail1").value;
+// 		let Epass = document.getElementById("exampleInputPassword1").value;
+// 		console.log(Eemail);
+// 	    data.forEach((item)=>{
+// 		if(Eemail===item.email && Epass===item.password){
+// 			isValid = true
+// 		}
+// 		})
+// 		if(isValid === true){
+// 			alert('Login Successful')
+// 			myHistory.push('/chart')
 
-		}
-		else{
-			alert('Login Failed')
-		}
-}
+// 		}
+// 		else{
+// 			alert('Login Failed')
+// 		}
+// }
 	return (
 			  <section className="container-fluid">
 				<section className ="row justify-content-center">
@@ -43,7 +43,7 @@ const login = () => {
 								<label for="exampleInputPassword1">Password</label>
 								<input type="password" className="form-control" id="exampleInputPassword1" />
 							</div>
-							<button  onClick={()=>userAuth()} className="btn btn-primary btn-block">Submit</button>
+							<Link  to="/chart"/*onClick={()=>userAuth()}*/ className="btn btn-primary btn-block">Submit</Link>
 						</form>
 					</section>
 				</section>

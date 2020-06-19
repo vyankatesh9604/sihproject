@@ -16,7 +16,6 @@ export class App extends Component {
   
         <Router>
           <Switch>
-            
             <Route path="/chart" component = {Chart}/>
             <Route  exact path="/" component={Login} />
             
